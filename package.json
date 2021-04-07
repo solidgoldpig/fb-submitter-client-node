@@ -1,0 +1,27 @@
+{
+  "name": "@solidgoldpig/fb-submitter-client-node",
+  "version": "0.0.27",
+  "description": "Form Builder Submitter Client (for Node)",
+  "main": "./lib/fb-submitter-client.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "lint:fix": "eslint lib --fix",
+    "test": "tap --reporter spec"
+  },
+  "author": "github@alex.solidgoldpig.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solidgoldpig/fb-submitter-client-node.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@solidgoldpig/fb-jwt-client-node": "0.0.27"
+  },
+  "devDependencies": {
+    "@solidgoldpig/solidgoldpig-eslint-config": "^1.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "sinon": "^7.5.0",
+    "tap": "^14.8.2",
+    "tape": "^4.11.0"
+  }
+}
