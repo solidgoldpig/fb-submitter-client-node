@@ -1,6 +1,6 @@
 {
   "name": "@solidgoldpig/fb-submitter-client-node",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Form Builder Submitter Client (for Node)",
   "main": "./lib/fb-submitter-client.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@solidgoldpig/fb-jwt-client-node": "0.0.27"
+    "@solidgoldpig/fb-jwt-client-node": "0.0.28"
   },
   "devDependencies": {
     "@solidgoldpig/solidgoldpig-eslint-config": "^1.1.3",
