@@ -2,5 +2,6 @@
 .dependabot/
 .eslintrc.js
 .gitignore
+.nyc_output/
 .wallaby.conf.js
 spec/
